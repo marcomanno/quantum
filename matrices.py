@@ -4,8 +4,6 @@ import cmath
 import numpy as np
 import sympy as sp
 
-theta = sp.symbols('theta')
-
 X=np.matrix([[0, 1],[1, 0]])
 Y=np.matrix([[0, -1j],[1j, 0]])
 Z=np.matrix([[1, 0],[0, -1]])
